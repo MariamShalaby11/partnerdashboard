@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+//import AddMreal from './Components/AddMeal/Addmeal'
+import Rest from './Components/restaurnat/Restaurant'
+//import Slidebar from './Components/Slidebar'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Rest />
   </React.StrictMode>,
   document.getElementById('root')
 );
